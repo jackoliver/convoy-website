@@ -342,7 +342,6 @@ export default {
 		const pageData = await $content('docs').fetch();
 		return { pageData };
 	},
-
 	methods: {
 		switchTabs(activeTab) {
 			switch (activeTab) {
